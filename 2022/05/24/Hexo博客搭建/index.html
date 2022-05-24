@@ -4,14 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="firstpaper, Uoyaij的个人博客">
-    <meta name="description" content="hexo备忘录首先感谢博主Fangzh的搭建教程
+    <meta name="keywords" content="HEXO博客搭建, Uoyaij的个人博客">
+    <meta name="description" content="hexo博客搭建首先感谢博主Fangzh的搭建教程
 博主CSDN搭建连接：（https://blog.csdn.net/sinat_37781304/article/details/82729029）
 搭建步骤
 安装Git
 Git安装
 
-安装">
+安">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -25,7 +25,7 @@ Git安装
 
     
 
-    <title>firstpaper | Uoyaij的个人博客</title>
+    <title>HEXO博客搭建 | Uoyaij的个人博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -316,12 +316,12 @@ Git安装
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">firstpaper</h1>
+                    <h1 class="description center-align post-title">HEXO博客搭建</h1>
                 </div>
             </div>
         </div>
@@ -470,7 +470,7 @@ Git安装
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="hexo备忘录"><a href="#hexo备忘录" class="headerlink" title="hexo备忘录"></a>hexo备忘录</h1><p>首先感谢博主Fangzh的搭建教程</p>
+                <h1 id="hexo博客搭建"><a href="#hexo博客搭建" class="headerlink" title="hexo博客搭建"></a>hexo博客搭建</h1><p>首先感谢博主Fangzh的搭建教程</p>
 <p>博主CSDN搭建连接：（<a target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_37781304/article/details/82729029%EF%BC%89">https://blog.csdn.net/sinat_37781304/article/details/82729029）</a></p>
 <h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><ol>
 <li><p>安装Git</p>
@@ -511,14 +511,14 @@ Git安装
 <p><code>hexo clean</code> </p>
 <p><code>hexo generate</code></p>
 <p><code>hexo deploy</code></p>
-<p><em>注意：这里在执行deploy时，会要求输入用户名密码，接着fatal错误</em></p>
+<p><font color=red><em>注意：这里在执行deploy时，会要求输入用户名密码，接着fatal错误</em></font></p>
 <p>解决方法：</p>
 <ol>
 <li><p>现在Hexo的yml配置里面deploy的repo要用 <a target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_37781304/article/details/git@github.com">git@github.com</a>:username/reponame.github.io.git，而不是<a target="_blank" rel="noopener" href="https://github.com/username/reponame.github.io.git">https://github.com/username/reponame.github.io.git</a></p>
 </li>
 <li><p>git修改ssh和http上传模式</p>
 <p>修改为https:git remote set-url origin <a target="_blank" rel="noopener" href="https://github.com/yourgithubname/yourgithubname.git">https://github.com/yourgithubname/yourgithubname.git</a></p>
-<p>修改为ssh: git remote set-url origin <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#99;&#111;&#109;</a>:yourgithubname/yourgithubname.git </p>
+<p>修改为ssh: git remote set-url origin <a href="mailto:&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#x63;&#x6f;&#109;">&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#x63;&#x6f;&#109;</a>:yourgithubname/yourgithubname.git </p>
 <p><em>建议使用修改为ssh的方案进行代码上传</em></p>
 </li>
 </ol>
@@ -536,8 +536,8 @@ Git安装
 <p>ssh-keygen -t rsa -C “youremail”</p>
 <p> #生成后填到github和coding上（有coding平台的话） </p>
 <p>#验证是否成功 </p>
-<p>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a> </p>
-<p>ssh -T <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#x2e;&#99;&#111;&#x64;&#105;&#110;&#103;&#46;&#x6e;&#101;&#116;">&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#x2e;&#99;&#111;&#x64;&#105;&#110;&#103;&#46;&#x6e;&#101;&#116;</a> #(有coding平台的话)</p>
+<p>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#109;">&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#109;</a> </p>
+<p>ssh -T <a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#x69;&#116;&#x2e;&#x63;&#111;&#100;&#x69;&#110;&#x67;&#46;&#x6e;&#101;&#116;">&#103;&#x69;&#x74;&#x40;&#103;&#x69;&#116;&#x2e;&#x63;&#111;&#100;&#x69;&#110;&#x67;&#46;&#x6e;&#101;&#116;</a> #(有coding平台的话)</p>
 </li>
 <li><p>安装node.js</p>
 <p>sudo apt-get install nodejs </p>
@@ -562,13 +562,14 @@ Git安装
 </li>
 </ol>
 <p>**Tips:**每次写完最好把源文件上传</p>
-<p>​    git add .</p>
+<p>​     git add .</p>
 <p>​     git commit –m “xxxx”</p>
 <p>​     git push </p>
 <p>如果是在已经编辑过的电脑上，已经有clone文件夹了，那么，每次只要和远端同步一下就行了</p>
 </li>
 </ol>
 <p>​            git pull</p>
+<hr>
 
                 
             </div>
@@ -678,17 +679,18 @@ Git安装
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2022/05/24/A/">
+                <a href="/2022/05/24/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="A">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="HEXO博客搭建">
                         
-                        <span class="card-title">A</span>
+                        <span class="card-title">HEXO博客搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -698,9 +700,9 @@ Git安装
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -709,6 +711,7 @@ Git安装
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -723,9 +726,9 @@ Git安装
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="firstpaper">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="HEXO博客搭建">
                         
-                        <span class="card-title">firstpaper</span>
+                        <span class="card-title">HEXO博客搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
